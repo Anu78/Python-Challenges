@@ -85,14 +85,14 @@ class MyFrame1 ( wx.Frame ):
 		self.Centre( wx.BOTH )
 
 		# Connect Events
-		self.button0.Bind( wx.EVT_BUTTON, self.button0 )
+		self.button0.Bind( wx.EVT_BUTTON, self.zero )
 
 	def __del__( self ):
 		pass
 
 
 	# Virtual event handlers, overide them in your derived class
-	def button0( self, event ):
+	def zero( self, event ):
 		event.Skip()
 
 

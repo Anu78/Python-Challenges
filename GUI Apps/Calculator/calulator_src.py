@@ -3,13 +3,22 @@ import wx
 #import the newly created GUI file
 import noname
 
-numString = ""
-class CalcFrame(noname.MyFrame1):
-   def __init__(self,parent):
-      noname.MyFrame1.__init__(self,parent)
 
-   def button0(self,event):
-       numString = numString+"0"
+class CalcFrame(noname.MyFrame1):
+    numString = ""
+    def __init__(self,parent):
+        noname.MyFrame1.__init__(self,parent)
+
+    def updateText():
+        noname.numone.setLabel(numString)
+
+    def zero(self,event):
+        numString = ""
+        numString = numString + "0"
+        CalcFrame.updateText()
+
+
+
 
 app = wx.App(False)
 frame = CalcFrame(None)
