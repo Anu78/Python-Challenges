@@ -5,4 +5,4 @@ for lessernums in range(1,inputNum):
 if(inputNum==0):
     print(1)
 else:
-    print(inputNum)
+    print(input)
