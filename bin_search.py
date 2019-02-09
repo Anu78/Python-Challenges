@@ -20,3 +20,5 @@ def binSearch(array, term):
             max = guess-1
             guess = int((min+max)/2)
 binSearch(searchArray, searchVal)
+
+def haha():
