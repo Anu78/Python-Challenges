@@ -1,8 +1,8 @@
-inputNum = int(input("Type a number to get a factorial of:"))
+import pdb
+inputNum = int(input("Type a number to get the factorial of:"))
 for lessernums in range(1,inputNum):
-    inputNum*=lessernums;
-
+    inputNum*=lessernums
 if(inputNum==0):
     print(1)
 else:
-    print(input)
+    print(inputNum)
