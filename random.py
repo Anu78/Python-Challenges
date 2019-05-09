@@ -1,6 +1,8 @@
-userinput = int(input("type a number: "))
+tmpArray = []
+for evie in range(1,7):
+    tmpArray.append(evie)
 
-if userinput%2 == 0:
-    print("even")
-else:
-    print("odd")
+print(tmpArray)
+tmpArray.pop(tmpArray.index(6))
+
+print(tmpArray)
