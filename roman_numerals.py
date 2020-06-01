@@ -16,10 +16,10 @@ nums_val = [1,5,10,50,100,500,1000]
 def roman_numeral(number):
     #variable defs
     largestNum = 0
-    largestIndex = 0;
+    largestIndex = 0
     tempStr = ""
     stringCopy = str(number)
-    distTo = 0;
+    distTo = 0
 
     #check if it's a string, if so, try to convert to int
     if type(number) == str:

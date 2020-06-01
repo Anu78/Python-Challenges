@@ -1,0 +1,1 @@
+rows = input("Rows: ")
