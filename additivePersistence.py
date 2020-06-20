@@ -36,3 +36,4 @@ if choice == "A":
     additivePersistence(input("enter a number: "))
 elif choice == "M":
     multiplicativePersistence(input("enter a number: "))
+

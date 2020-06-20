@@ -4,4 +4,9 @@ def fibonacci(n):
     for f in range(0,n-2):
         array.append(array[f]+array[f+1])
     print(array)
-fibonacci(int(input("How many? ")))
+
+
+try:
+    fibonacci(int(input("How many? ")))
+except:
+    print("Please type an integer.")
