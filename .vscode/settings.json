@@ -1,0 +1,7 @@
+{
+    "python.linting.enabled": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.automationShell.linux": "",
+    "editor.cursorStyle": "line"
+    "editor.cursorSmoothCaretAnimation": true
+}

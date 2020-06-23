@@ -1,4 +1,3 @@
-import pdb
 inputNum = int(input("Type a number to get the factorial of:"))
 for lessernums in range(1,inputNum):
     inputNum*=lessernums
