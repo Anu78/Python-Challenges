@@ -1,18 +1,17 @@
 import re
-censorText = open("censor.txt", "r")
-resultText = open("result.txt", "w")
+censorText = open("censorString/censor.txt", "r")
 
-censoredWords = ["and", "over"]
+wordstoCensor = ["and", "over"]
 replacedWords = []
 
-for word in censoredWords:
+for word in wordstoCensor:
     replacedWords.append(re.sub(r'[a-zA-z]', r'-', word))
 
 for x in censorText:
     changedLine = x
-    for index in range(0, len(censoredWords)):
-        changedLine = changedLine.replace(censoredWords[index], replacedWords[index])
-    resultText.write(changedLine)
+    for index in range(0, len(wordstoCensor)):
+        changedLine = changedLine.replace(
+            wordstoCensor[index], replacedWords[index])
+    censorText.write(changedLine)
 
 censorText.close()
-resultText.close()

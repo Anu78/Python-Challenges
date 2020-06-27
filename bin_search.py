@@ -18,7 +18,7 @@ def binSearch(array, term):
             max = guess-1
             guess = int((min+max)/2)
 
-if len(sys.argv) < 1:
+if len(sys.argv) == 1:
     print("Please specify an argument.")
     quit()
 binSearch(searchArray, int(sys.argv[1]))

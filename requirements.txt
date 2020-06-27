@@ -2,6 +2,7 @@ absl-py==0.9.0
 appdirs==1.4.3
 astunparse==1.6.3
 attrs==19.3.0
+autopep8==1.5.3
 backcall==0.2.0
 bleach==3.1.5
 bokeh==2.1.0
@@ -64,6 +65,7 @@ ptyprocess==0.6.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 PyAutoGUI==0.9.50
+pycodestyle==2.6.0
 PyGetWindow==0.0.8
 Pygments==2.6.1
 PyMsgBox==1.0.8
@@ -89,11 +91,11 @@ Send2Trash==1.5.0
 six==1.14.0
 tensorboard==2.2.2
 tensorboard-plugin-wit==1.6.0.post3
-tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
+toml==0.10.1
 tornado==6.0.4
 traitlets==4.3.3
 typing-extensions==3.7.4.2
